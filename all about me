@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="style" href="./second style sheet.css. href=./second style sheet.css.">
+    <title>All About Me</title>
+  </head>
+  <body>
+    <!-- navigation tags - block level element -->
+    <header>
+      <h3>
+        <a href="/">Joanne Hickey</a>
+
+        <img src="./images/img_2931.jpeg" />
+
+      </h3>
+      <nav>
+        <ul>
+          <li>
+           <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#A little about me">A Litlte About Me</a>
+          </li>
+          <li>
+            <a href="#Contact Informatio">Contact Inforation</a>
+          </li>
+        
+          
+        </ul>
+      </nav>
+    </header>
+    <!-- end navigation -->
+
+    
+
+    <!-- "Projects" start - <section> -->
+<section id="PROJECTS" class="intro"></h2>
+      
+      <p> These are a few of the projects that I have done so far....
+      </p>
+        
+    </section>
+    <!-- end "Projects" -->
+
+    <!-- "What I Am Doing Now" start -->
+    
+      <div>
+        
+        <h2>What I am doing now <span> </h2>
+     <p>I am currently working at the Ottawa Public Health Laboratory.  I have been there for 23 years. I started 
+     there maintaining the computer systems, and transitioned into a Laboratory Attendant.  We do alot of "preventable
+     Disease" testing, and most recently, COVID testing.
+     I have always been intrigued by coding.  I did a little bit in College.
+    </p>
+    <!-- "What I am doing Now" end -->
+
+
+     <h2> About Me </h2>
+     
+     <p> I am a mother of an amazing 16 year old.  I have also been married for the past 18 years.
+     Since COVID started, I realized that I needed to make a change.  I was going to just take a couple of courses,
+     to get my brain stimulated, but then one of my friend sent me he link to this coding course.
+     </p>
+ 
+      </div>
+       
+    <!-- "About Me" end -->
+
+    <!-- "Contact Me" start -->
+    <a href=#my email address>my email address is: 			jlhickey1971@gmail.com<br>
+    <a href:=my LinkedIn page> my LinkedIn page is: jlhickey<br></a>
+    <a href:=my Github page> my github page is: www.Github.comjlhickey<br></a> 
+        <div class="contact-form">
+          <h3>If You Would Like To Leave A Message</h3>
+          <form>
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+        
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+        
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        
+      </div>
+    </section>
+    
+
+    <!-- footer -->
+    
+   
+    <!-- footer end -->
+  </body>
+ 
+
+   
