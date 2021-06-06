@@ -89,7 +89,7 @@ header {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #fce138;
+  color: #light yellow;
 
 }
 
@@ -126,7 +126,7 @@ All About Me-form {
 /* Projects title style */
 
 .Project-title {
-  font-size: 48px;
+  font-size: 55px;
   border-bottom: 3px solid;
   padding-bottom: 20px;
   margin: 0 auto 35px auto;
@@ -135,7 +135,7 @@ All About Me-form {
 }
 
 .primary-border {
-  border-color: #blue;
+  border-color: #light blue;
 
 }
 
