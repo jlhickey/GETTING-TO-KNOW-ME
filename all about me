@@ -76,20 +76,15 @@ header {
   flex-wrap: wrap;
 
 }
- /* Applies 20px to every side (top, right, bottom, left) */
-
+ 
   header h1 {
     font-weight: bold;
     margin: 0;
-    font-size:36 px;
+    font-size:20 px;
     color: #fce138
   }
 
-  header a {
-    text-decoration: none;
-    color: #fce138
-  }
-   
+  
   header nav {
     margin: 7px 0;
   
@@ -101,16 +96,8 @@ header {
      justify-content: space-between;
      align-items: none;
   }
-  header nav ul li a {
-    padding:10 px 15 px;
-    font-weight: lighter;
-    font-size:1.55 vw;
+  
 
-  }
-
-/* header / navbar styles end */
-
-/* footer style start  */
   
  footer{
    background: #fce138;
@@ -121,7 +108,6 @@ header {
    width: 100%
  }
   footer h2 {
-    color: #024e76;
     font-size: 30px;
     margin: 0;
 
@@ -137,9 +123,6 @@ header {
     color:#024e76;
   }
 
-/*end of footer style*/
-
-/*style all tags*/
 
   section {
     padding: 60px;
@@ -157,72 +140,7 @@ header {
    flex-wrap: wrap;
    align-items: flex-start;
 
- } 
-
-.hero-cta {
-  width:35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 55px;
-  line-height: 1.2;
-
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138
-
-}
-
-hero-form {
-  border: 3px solid #024e76;
-  background: color #fce13f;
-  padding: 20px;
-  color: #024e76;
-  width: 40%;
-  margin: 3.5;
-}
-
-.hero-form h3 {
-  font-size: 24 ppx;
-  margin: 0;
-
-}
-
-hero-form p {
-  margin: 5 px 0 15 px 0;
-
-}
-
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15 px;
-  font-size: 16 px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-
-}
-
-.hero-form label {
-  margin: 0 5px;
-
-}
-
-.hero-form button {
-  color:#fce138;
-  background-color: #024e76;
-  padding-bottom: 20px;
-  margin: 0 auto 35 px auto;
-  width: 50%;
-
-}
-
-/* hero style end */
-  
+ }   
 
 
 /* section title style */
@@ -258,10 +176,6 @@ hero-form p {
 
 }
 
-.contact h2 {
-  color: #fce138
-
-}
 
 .contact-info {
   display: flex;
@@ -270,63 +184,7 @@ hero-form p {
 
 }
 
-.contact-info > * {
-  flex:1;
-  margin: 15px;
 
-}
-
-.contact-info iframe {
-  height: 400px;
-
-}
-
-.contact-info div {
-  color: white;
-  
-}
-
-.contact info h3 {
-  color: #fce138;
-  font-size: 32px;
-  
-}
-
-
-.contact-info p .contact address {
-  margin: 20px 0;
-  line-height: 1.5;
-  font-size: 16px;
-  font-style: normal;
-
-}
-
-.contact-form input  .contact-form textarea {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 5 px;
-
-}
-
-.contact-form button {
-  width: 100%;
-  border:none;
-  background: #fce138;
-  color: #024e76;
-  text-align: center;
-  font-size: 16px;
-
-}
-
-.contact-info a {
-  color: #fce138;
-
-}
 
 /* reach out style end */
 
@@ -348,127 +206,6 @@ hero-form p {
 
 }
 
-/* media query for smaller desktop screens @media screen and (max-width 980px)
-{
-header {
-  padding-bottom: 0;
-  justify-content:center;
-}
-header h1 {
-  width: 100%;
-  text-align: center;
-}
-header nav ul {
-  margin-top: 20px;
-  width: 100%;
-  justify-content: center;
-}
-header vnav ul li a {
-  font-size: 20px;
-}
-footer h2, footer div {
-  text-align: center;
-  width: 100%;
-}
-.hero-cta, .hero-form {
-  width: 100%;
-}
-.hero-cta {
-  text-align: center;
-}
-.section-title {
-  width:80%;
-}
-.trainer {
-  flex: 0 70%;
-}
-.contact-info iframe {
-  flex: 1 100%;
-}
-}
-/*media query for tablets and smaller @media screen and (max-width 768px)*/
-{
-section {
-  padding: 30px 15px;
-
-}
-
-.step h3 {
-  flex: 1 100%;
-  text-align: center;
-
-}
-
-.step-info {
-  flex: 2 100%;
-  text-align: center;
-  justify-content: center;
-  
-
-}
-
-step-img {
-  flex:0 32%;
-  margin:right;
-  margin-top: 15px;
-  margin-bottom: 15px;
-
-}
-
-.step-text {
-  flex: 100%;
-}
-}
-
-/* media query for mobile phones and smaller @media scree and (max width 575px) */
-{
-  .All About Me-form button {
-    width:100%;
-
-  }
-
-  .section-title {
-    width: 95%;
-
-  }
-
-  .intro p {
-    width: 100%;
-
-  }
-
-  .trainer {
-    flex 0 100%
-
-  }
-
-  .contact-info {
-    text-align:center;
-
-  }
-
-  .contact.info >* {
-    flex: 0 100%;
-  
-  }
-.contact-form {
-  order: 3;
-
-}
-
-}
-
-/* end */
-     <h2> About Me </h2>
-     
-     <p> I am a mother of an amazing 16 year old.  I have also been married for the past 18 years.
-     Since COVID started, I realized that I needed to make a change.  I was going to just take a couple of courses,
-     to get my brain stimulated, but then one of my friend sent me he link to this coding course.
-     </p>
- 
-      </div>
-       
-    <!-- "About Me" end -->
 
     <!-- "Contact Me" start -->
     <a href=#my email address>my email address is: 			jlhickey1971@gmail.com<br>
@@ -487,8 +224,7 @@ step-img {
           </form>
         </div>
 
-        
-      </div>
+       
     </section>
     
 
