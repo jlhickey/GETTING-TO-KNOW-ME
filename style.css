@@ -3,7 +3,7 @@
 /* header / nav bar style start*/
 header {
   padding: 20px 20px;
-  background-color:#lightyellow;
+  background-color:#yellow;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ header {
 /* footer style start  */
   
  footer{
-   background: #blue;
+   background:#blue;
    padding:30px 35px;
    display: flex;
    justify-content: space-between;
@@ -75,7 +75,7 @@ header {
   width:20%;
   text-align: center;
   margin: 2%;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.2;
 
 }
@@ -92,24 +92,8 @@ All About Me-form {
   background: color #lightyellow;
   padding: 20px;
   color: #lightgrey;
-  width: 40%;
+  width: 20%;
   margin: 3.5;
-}
-
-.form-input {
-  border: 1px solid #blue;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #lightyellow;
-  width: 25%;
-  margin-bottom: 15px;
-
-}
-
-.hero-form label {
-  margin: 0 5px;
-
 }
 
 
