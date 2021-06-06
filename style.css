@@ -3,7 +3,7 @@
 /* header / nav bar style start*/
 header {
   padding: 20px 35px;
-  background-color: light yellow;
+  background-color: grey blue;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@ header {
   header h1 {
     font-weight: bold;
     margin: 20px;
-    font-size:36 px;
+    font-size:40 px;
     color: #a0fc38
   }
 
