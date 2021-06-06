@@ -2,7 +2,7 @@
 
 /* header / nav bar style start*/
 header {
-  padding: 20px;
+  padding: 15px;
   background-color:#yellow;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@ header {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   width: 100%
+   width: 50%
  }
    
   footer div {
