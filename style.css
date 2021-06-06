@@ -18,15 +18,15 @@ header {
     color: #lightyellow;
   }
 
-  header a {
-    text-decoration: none;
-    color: #blue;
-  }
+ 
    
-  img  {
-    margin: 7px 0;
-  
-}
+  img1  {
+    margin: right 7px ;
+   }
+
+  img2  {
+    margin:right 7px ;
+    
  
   
   
@@ -68,7 +68,7 @@ header {
    justify-content: center;
    flex-wrap: wrap;
    align-items: flex-start;
-
+   
  } 
 
 .All About Me{
@@ -140,15 +140,21 @@ All About Me-form {
 
 /* What I am Doing Now */
 
-.intro p {
+. p {
   line-height: 1.7;
   color: #lightgrey;
-  width: 80%;
+  width: 35;
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
 
-}
+  .p2 {
+  line-height: 1.7;
+  color: #lightgrey;
+  width: 35;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;}
 
 /* What I am doing Now style end */
 
@@ -171,7 +177,7 @@ All About Me-form {
 }
 
 .contact-info iframe {
-  height: 400px;
+  height: 40px;
 
 }
 
