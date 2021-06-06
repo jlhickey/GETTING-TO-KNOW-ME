@@ -74,7 +74,7 @@ header {
 
  .All About Me {
    
-   background-size: cover;
+   background-size:right;
    background-position: right;
    display: flex;
    justify-content: center;
@@ -84,7 +84,7 @@ header {
  } 
 
 .All About Me{
-  width:35%;
+  width:20%;
   text-align: right;
   margin: 3.5%;
   color: #fff;
