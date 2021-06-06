@@ -3,7 +3,7 @@
 /* header / nav bar style start*/
 header {
   padding: 50px 35px;
-  background-color:#lightgrey;
+  background-color:#lightyellow;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -88,8 +88,8 @@ header {
 }
 
 All About Me-form {
-  border: 3px solid #lightyellow;
-  background: color #lightgrey;
+  border: 3px solid #lightorange;
+  background: color #lightyellow;
   padding: 20px;
   color: #lightgrey;
   width: 40%;
