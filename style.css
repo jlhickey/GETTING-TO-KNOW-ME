@@ -38,12 +38,7 @@ header {
   
 }
  
-  header nav ul {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     align-items: none;
-  }
+  
   header nav ul li a {
     padding:10 px 15 px;
     font-weight: lighter;
@@ -124,17 +119,6 @@ All About Me-form {
   margin: 3.5;
 }
 
-.All About Me-form h3 {
-  font-size: 24 ppx;
-  margin: 0;
-
-}
-
-hero-form p {
-  margin: 5 px 0 15 px 0;
-
-}
-
 .form-input {
   border: 1px solid #766102;
   display: block;
@@ -151,14 +135,6 @@ hero-form p {
 
 }
 
-.All ABout Me-form button {
-  color:#fce138;
-  background-color: #024e76;
-  padding-bottom: 20px;
-  margin: 0 auto 35 px auto;
-  width: 50%;
-
-}
 
 /* All About Me style end */
   
@@ -169,7 +145,6 @@ hero-form p {
 .Project-title {
   font-size: 48px;
   border-bottom: 3px solid;
-  color: #024876;
   padding-bottom: 20px;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -213,21 +188,11 @@ hero-form p {
 
 }
 
-.contact h2 {
-  color: #fce138
-
-}
 
 .contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
-}
-
-.contact-info > * {
-  flex:1;
-  margin: 15px;
 
 }
 
@@ -241,53 +206,12 @@ hero-form p {
   
 }
 
-.contact info h3 {
-  color: #fce138;
-  font-size: 32px;
-  
-}
 
-
-.contact-info p .contact address {
-  margin: 20px 0;
-  line-height: 1.5;
-  font-size: 16px;
-  font-style: normal;
-
-}
-
-.contact-form input  .contact-form textarea {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width:100%;
-  margin-bottom: 15px;
-  margin-top: 5 px;
-
-}
-
-.contact-form button {
-  width: 100%;
-  border:none;
-  background: #fce138;
-  color: #024e76;
-  text-align: center;
-  font-size: 16px;
-
-}
-
-.contact-info a {
-  color: #fce138;
-
-}
 
 /* reach out style end */
 
 
-/* utilities */
-
+ 
 .text-left{
   text-align: left;
 
@@ -303,111 +227,6 @@ hero-form p {
 
 }
 
-/* media query for smaller desktop screens @media screen and (max-width 980px)
-
-
-}
-header h1 {
-  width: 100%;
-  text-align: center;
-}
-header nav ul {
-  margin-top: 20px;
-  width: 100%;
-  justify-content: center;
-}
-header vnav ul li a {
-  font-size: 20px;
-}
-footer h2, footer div {
-  text-align: center;
-  width: 100%;
-}
-.hero-cta, .hero-form {
-  width: 100%;
-}
-.hero-cta {
-  text-align: center;
-}
-.section-title {
-  width:80%;
-}
-.trainer {
-  flex: 0 70%;
-}
-.contact-info iframe {
-  flex: 1 100%;
-}
-}
-/*media query for tablets and smaller @media screen and (max-width 768px)*/
-
-section {
-  padding: 30px 15px;
-
-}
-
-.step h3 {
-  flex: 1 100%;
-  text-align: center;
-
-}
-
-.step-info {
-  flex: 2 100%;
-  text-align: center;
-  justify-content: center;
-  
-
-}
-
-step-img {
-  flex:0 32%;
-  margin:right;
-  margin-top: 15px;
-  margin-bottom: 15px;
-
-}
-
-.step-text {
-  flex: 100%;
-}
-
-
-/* media query for mobile phones and smaller @media scree and (max width 575px) */
-
-  .hero-form button {
-    width:100%;
-
-  }
-
-  .section-title {
-    width: 95%;
-
-  }
-
-  .intro p {
-    width: 100%;
-
-  }
-
-  .trainer {
-    flex: 0 100%
-
-  }
-
-  .contact-info {
-    text-align: center;
-
-  }
-
-  .contact.info >* {
-    flex: 0 100%;
-  
-  }
-.contact-form {
-  order: 3;
-
-}
 
 
 
