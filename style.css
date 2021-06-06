@@ -15,12 +15,12 @@ header {
     font-weight: bold;
     margin: 20px;
     font-size:40 px;
-    color: #a0fc38
+    color: #blue;
   }
 
   header a {
     text-decoration: none;
-    color: #fce138;
+    color: #blue;
   }
    
   header nav {
@@ -35,7 +35,7 @@ header {
 /* footer style start  */
   
  footer{
-   background: #fce138;
+   background: #blue;
    padding: 40 px35 px;
    display: flex;
    justify-content: space-between;
@@ -51,7 +51,7 @@ header {
 
   footer div {
     line-height: 1.5;
-    text-align: right;
+    text-align: center;
     
   }
 
@@ -81,7 +81,7 @@ header {
   width:20%;
   text-align: right;
   margin: 2%;
-  color: #fff;
+  color: #blue;
   font-size: 55px;
   line-height: 1.2;
 
@@ -98,13 +98,13 @@ All About Me-form {
   border: 3px solid #765102;
   background: color #fce13f;
   padding: 20px;
-  color: #024e76;
+  color: #0blue;
   width: 40%;
   margin: 3.5;
 }
 
 .form-input {
-  border: 1px solid #766102;
+  border: 1px solid #blue;
   display: block;
   padding: 7px 15 px;
   font-size: 16 px;
@@ -136,14 +136,10 @@ All About Me-form {
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: #blue;
 
 }
 
-.secondary-border {
-  border-color: #39a6b2;
-
-}
 
 /* Projects title style end */
 
