@@ -3,7 +3,7 @@
 /* header / nav bar style start*/
 header {
   padding: 50px 35px;
-  background-color: orange;
+  background-color: light grey;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
