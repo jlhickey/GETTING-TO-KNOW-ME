@@ -1,137 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="style" href="https://github.com/jlhickey/GETTING-TO-KNOW-ME/style.css; href="https://github.com/jlhickey/GETTING-TO-KNOW-ME/images/img_2931.jpeg>
-    <title>All About Me</title>
+    <link rel="iclouddrive/user/joannehickey/style" 
+    <title>Joanne Hickey</title>
   </head>
   <body>
-   
-      <h3>
-        <a href="/">Joanne Hickey</a>;
-
-        <img src="https://gitlab.com/jlhickey/GETTING-TO-KNOW-ME/images/img_2931.jpeg"/>;
-
-      </h3>
-       
-           <a href="#projects">Projects</a>;
-           
-            <a href="#A little about me">A Litlte About Me</a>;
-           
-            <a href="#Contact Information">Contact Information</a>;
-          
-    </header>
-    <!-- end navigation -->
-
     
-
-    <!-- "Projects" start - <section> -->
-<section id="PROJECTS"> 
-      
-      <p> These are a few of the projects that I have done so far....
-      </p>
+    <header>
+      <h1>
+        <a href="/">Joanne Hickey</a>
+      </h1>
+      <div>
+        <img src="iclouddrive/user/joannehickey/photos/img_2931.jpeg" />
+      <nav>
+        <ul>
+          <li>
+            <a href="#All About Me">All Aboout Me</a>
+          </li>
+    
+          <li>
+            <a href="#Projects">Projects That I Have Done</a>
+          </li>
         
-    </section>
-    <!-- end "Projects" -->
+        <li>
+            <a href="#Contact Info">Reach Out</a>
+          </li>
+        </ul>
+          
 
-    <!-- "What I Am Doing Now" start -->
-    <section id="What I am Doing Now">       
-    <div>
-        
-        <h2>What I Am Doing Now </h2>
-     <p>I am currently working at the Ottawa Public Health Laboratory.  I have been there for 23 years. I started 
-     there maintaining the computer systems, and transitioned into a Laboratory Attendant.  We do alot of "preventable
-     Disease" testing, and most recently, COVID testing.
-     I have always been intrigued by coding.  I did some in College, but more recentlu, a friend sent me the link to this coding course.
-    </p>
-    <!-- "What I am doing Now" end -->
-
-/* style */
-{
-  box-sizing: 0;
-  margin:0;
-  padding: 0
-}
-
-body {
-  color: #39a6b2;
-  font-family: helvetica, Arial, sans-serif;
-
-}
-
-  
- footer{
-   background: #fce138;
-   padding: 40 px35 px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   width: 100%
- }
+      <!-- section -->
  
+    <section>
 
-  section {
-    padding: 60px;
+    <h1>All About Me</h1>
+      <p>I am currently working at The Ottawa Public Health Laboratory as a Laboratory Technician.
+      I have maintained employment there for 24 years.<br> We do a lot of testing of 'preventable' diseases, 
+      viruses, and most recently COVID. 
+      I am married, and have an amazing 16 year old son.
+    </p>
 
-  }
+</section>
+    
+<section>
 
-  /*hero style start*/
+    <h2><a href="<img src="/img_2931.jpeg"</a>
+</h2>
+       
 
- .hero {
-   background-image: url("https://iclouddrive/desktop/joannehickey./img_2936.jpeg";
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   align-items: flex-start;
+</section>
+             
+ 
+ <section>
 
- }   
-
-
-/* section title style */
-
-.section-title {
-  font-size: 48px;
-  border-bottom: 3px solid;
-  padding-bottom: 20px;
-  margin: 0 auto 35px auto;
-  width: 50%;
-
-}
-
-.primary-border {
-  border-color: #fce138;
-
-}
-
-/* section title style end */
-
-
-
-/*Contact Information*/
-
-.contact {
-  background: #024e76;
-
-}
-
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-}
-
-
-
-/* reach out style end */
-
-
-    <!-- "Contact Me" start -->
-    <a href=#my email address>my email address is: jlhickey1971@gmail.com<br></a>
+    <h1>Contact Information</h1>
+      
+    <a href=#my email address>my email address is: jlhickey1971@gmail.com<br>
     <a href:=my LinkedIn page> my LinkedIn page is: jlhickey<br></a>
     <a href:=my Github page> my github page is: www.Github.comjlhickey<br></a> 
         <div class="contact-form">
@@ -147,15 +71,10 @@ body {
           </form>
         </div>
 
-       
+        
+      </div>
     </section>
     
-
-    <!-- footer -->
-    
-   
-    <!-- footer end -->
-  </body>
  
 
    
