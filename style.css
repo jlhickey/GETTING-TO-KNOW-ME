@@ -14,8 +14,8 @@ header {
   header h1 {
     font-weight: bold;
     margin: 20px;
-    font-size:60 px;
-    color: #light yellow;
+    font-size:60px;
+    color: #lightyellow;
   }
 
   header a {
@@ -36,19 +36,13 @@ header {
   
  footer{
    background: #blue;
-   padding: 40 px35 px;
+   padding: 40px 35px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
    width: 100%
  }
-  footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-
-  }
-
+   
   footer div {
     line-height: 1.5;
     text-align: center;
@@ -89,15 +83,15 @@ header {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #light yellow;
+  color: #lightyellow;
 
 }
 
 All About Me-form {
-  border: 3px solid #765102;
-  background: color #fce13f;
+  border: 3px solid #lightyellow;
+  background: color #lightgrey;
   padding: 20px;
-  color: #0blue;
+  color: #lightgrey;
   width: 40%;
   margin: 3.5;
 }
@@ -135,7 +129,7 @@ All About Me-form {
 }
 
 .primary-border {
-  border-color: #light blue;
+  border-color: #lightblue;
 
 }
 
@@ -148,7 +142,7 @@ All About Me-form {
 
 .intro p {
   line-height: 1.7;
-  color: #39a6b2;
+  color: #lightgrey;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
@@ -163,7 +157,7 @@ All About Me-form {
 /*Contact Information style*/
 
 .contact {
-  background: #024e76;
+  background: #lightyellow;
   font-size: 20px;
 
 }
