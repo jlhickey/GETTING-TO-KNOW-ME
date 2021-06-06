@@ -11,11 +11,11 @@ header {
 }
  /* Applies 20px to every side (top, right, bottom, left) */
 
-  header h1 {
+  header name {
     font-weight: bold;
-    margin: 20px;
+    margin: center 20px;
     font-size:35px;
-    color: #yellow;
+    color: #green;
   }
 
  
