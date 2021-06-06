@@ -68,10 +68,10 @@ header {
 
  .All About Me {
    
-   background-size:right;
-   background-position: top;
+   background-size:center;
+   background-position: center;
    display: flex;
-   justify-content: right;
+   justify-content: center;
    flex-wrap: wrap;
    align-items: flex-start;
 
@@ -90,7 +90,7 @@ header {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #fce138
+  color: #fce138;
 
 }
 
@@ -109,7 +109,7 @@ All About Me-form {
   padding: 7px 15 px;
   font-size: 16 px;
   color: #024e76;
-  width: 100%;
+  width: 25%;
   margin-bottom: 15px;
 
 }
@@ -169,6 +169,7 @@ All About Me-form {
 
 .contact {
   background: #024e76;
+  font-size: 20px;
 
 }
 
@@ -197,12 +198,12 @@ All About Me-form {
 
  
 .text-left{
-  text-align: left;
+  text-align: center;
 
 }
 
 .test-align right {
-  text-align: right;
+  text-align: center;
 
 }
 
