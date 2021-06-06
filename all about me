@@ -9,22 +9,18 @@ Permissions-Policy: interest-cohort=()
   <body>
    
       <h3>
-        <a href="/">Joanne Hickey</a>
+        <a href="/">Joanne Hickey</a>;
 
-        <img src="https://gitlab.com/jlhickey/GETTING-TO-KNOW-ME/images/img_2931.jpeg"/>
+        <img src="https://gitlab.com/jlhickey/GETTING-TO-KNOW-ME/images/img_2931.jpeg"/>;
 
       </h3>
-        <ul>
-          <li>
-           <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#A little about me">A Litlte About Me</a>
-          </li>
-          <li>
-            <a href="#Contact Information">Contact Information</a>
-          </li> 
-        </ul>
+       
+           <a href="#projects">Projects</a>;
+           
+            <a href="#A little about me">A Litlte About Me</a>;
+           
+            <a href="#Contact Information">Contact Information</a>;
+          
     </header>
     <!-- end navigation -->
 
@@ -63,13 +59,7 @@ body {
   font-family: helvetica, Arial, sans-serif;
 
 }
-/* header / nav bar style start*/
-header {
-  padding: 20px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
   
  footer{
    background: #fce138;
