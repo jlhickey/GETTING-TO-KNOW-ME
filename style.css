@@ -40,7 +40,7 @@ header {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   width: 50%
+   width: 30%
  }
    
   footer div {
@@ -105,7 +105,7 @@ All About Me-form {
   border-bottom: 3px solid;
   padding-bottom: 20px;
   margin: 0 auto 35px auto;
-  width: 30%;
+  width: 20%;
 
 }
 
