@@ -13,7 +13,6 @@
         <img src="https://gitlab.com/jlhickey/GETTING-TO-KNOW-ME/images/img_2931.jpeg"/>
 
       </h3>
-      <nav>
         <ul>
           <li>
            <a href="#projects">Projects</a>
@@ -22,10 +21,9 @@
             <a href="#A little about me">A Litlte About Me</a>
           </li>
           <li>
-            <a href="#Contact Informatio">Contact Inforation</a>
+            <a href="#Contact Information">Contact Information</a>
           </li> 
         </ul>
-      </nav>
     </header>
     <!-- end navigation -->
 
@@ -44,16 +42,16 @@
     <section id="What I am Doing Now">       
     <div>
         
-        <h2>What I am doing now <span> </h2>
+        <h2>What I Am Doing Now </h2>
      <p>I am currently working at the Ottawa Public Health Laboratory.  I have been there for 23 years. I started 
      there maintaining the computer systems, and transitioned into a Laboratory Attendant.  We do alot of "preventable
      Disease" testing, and most recently, COVID testing.
-     I have always been intrigued by coding.  I did a little bit in College.
+     I have always been intrigued by coding.  I did some in College, but more recentlu, a friend sent me the link to this coding course.
     </p>
     <!-- "What I am doing Now" end -->
 
 /* style */
-*{
+{
   box-sizing: 0;
   margin:0;
   padding: 0
@@ -67,34 +65,10 @@ body {
 /* header / nav bar style start*/
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
- 
-  header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size:20 px;
-    color: #fce138
-  }
-
-  
-  header nav {
-    margin: 7px 0;
-  
-}
- 
-  header nav ul {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     align-items: none;
-  }
-  
-
   
  footer{
    background: #fce138;
@@ -104,14 +78,6 @@ header {
    flex-wrap: wrap;
    width: 100%
  }
- 
-
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-    
-  }
-
  
 
   section {
@@ -138,7 +104,6 @@ header {
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
-  color: #024e76;
   padding-bottom: 20px;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -147,11 +112,6 @@ header {
 
 .primary-border {
   border-color: #fce138;
-
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 
 }
 
@@ -177,24 +137,6 @@ header {
 
 
 /* reach out style end */
-
-
-/* utilities */
-
-.text-left{
-  text-align: left;
-
-}
-
-.test-align right {
-  text-align: right;
-
-}
-
-.flex-row {
-  display: flex;
-
-}
 
 
     <!-- "Contact Me" start -->
