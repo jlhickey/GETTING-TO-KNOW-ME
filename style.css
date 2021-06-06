@@ -2,8 +2,8 @@
 
 /* header / nav bar style start*/
 header {
-  padding: 20px 35px;
-  background-color: blue;
+  padding: 50px 35px;
+  background-color: orange;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@ header {
     color: #blue;
   }
    
-  header nav {
+  img  {
     margin: 7px 0;
   
 }
