@@ -6,8 +6,7 @@
     <title>All About Me</title>
   </head>
   <body>
-    <!-- navigation tags - block level element -->
-    <header>
+   
       <h3>
         <a href="/">Joanne Hickey</a>
 
@@ -24,9 +23,7 @@
           </li>
           <li>
             <a href="#Contact Informatio">Contact Inforation</a>
-          </li>
-        
-          
+          </li> 
         </ul>
       </nav>
     </header>
@@ -35,7 +32,7 @@
     
 
     <!-- "Projects" start - <section> -->
-<section id="PROJECTS" class="intro"></h2>
+<section id="PROJECTS"> 
       
       <p> These are a few of the projects that I have done so far....
       </p>
@@ -44,8 +41,8 @@
     <!-- end "Projects" -->
 
     <!-- "What I Am Doing Now" start -->
-    
-      <div>
+    <section id="What I am Doing Now">       
+    <div>
         
         <h2>What I am doing now <span> </h2>
      <p>I am currently working at the Ottawa Public Health Laboratory.  I have been there for 23 years. I started 
@@ -107,11 +104,7 @@ header {
    flex-wrap: wrap;
    width: 100%
  }
-  footer h2 {
-    font-size: 30px;
-    margin: 0;
-
-  }
+ 
 
   footer div {
     line-height: 1.5;
@@ -119,10 +112,7 @@ header {
     
   }
 
-  footer a {
-    color:#024e76;
-  }
-
+ 
 
   section {
     padding: 60px;
@@ -208,7 +198,7 @@ header {
 
 
     <!-- "Contact Me" start -->
-    <a href=#my email address>my email address is: 			jlhickey1971@gmail.com<br>
+    <a href=#my email address>my email address is: jlhickey1971@gmail.com<br></a>
     <a href:=my LinkedIn page> my LinkedIn page is: jlhickey<br></a>
     <a href:=my Github page> my github page is: www.Github.comjlhickey<br></a> 
         <div class="contact-form">
