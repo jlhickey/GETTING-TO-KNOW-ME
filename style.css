@@ -13,9 +13,9 @@ header {
 
   header name {
     font-weight: bold;
-    margin: center 20px;
+    margin: 20px;
     font-size:35px;
-    color: #green;
+    color: #yelow;
   }
 
  
@@ -35,7 +35,7 @@ header {
 /* footer style start  */
   
  footer{
-   background:#blue;
+   background:#pink;
    padding:30px 30px;
    display: flex;
    justify-content: space-between;
@@ -110,7 +110,7 @@ All About Me-form {
 }
 
 .primary-border {
-  border-color: #lightblue;
+  border-color: #lightpink;
 
 }
 
