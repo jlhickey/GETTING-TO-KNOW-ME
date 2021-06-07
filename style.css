@@ -4,7 +4,6 @@ body {
   font-size:20px;
   justify-content: center;
   margin:2%;
-  p.solid {border-style: solid;}
 }
 
 
@@ -27,7 +26,6 @@ body {
     margin: 2%;
     height:10%;
     weight:10%;
-    justification:center;
     p.solid {border-style: solid;}  
 }
 
