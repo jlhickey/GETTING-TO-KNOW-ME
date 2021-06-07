@@ -1,8 +1,8 @@
 /* style */
 body {
-  color: #91b3db;
+  background-color: #lightyellow;
   font-family: sans-serif;
-  font-size:20px;
+  font-size:15px;
   justify-content: center;
   
 }
@@ -10,7 +10,6 @@ body {
 
   .header name {
     text-decoration: none;
-    color: #024e76;
     justification:center;
     font-size:20px;
   }
@@ -47,11 +46,11 @@ body {
   text-align:center;
   margin: 3.5%;
   color: #fff;
-  font-size: 40px;
+  font-size:15px;
   line-height: 1.2;
 
   .All About Me-family {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;}
   
   All About Me-form {
