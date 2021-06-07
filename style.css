@@ -3,7 +3,7 @@ body {
   color: #91b3db;
   font-family: helvetica, Arial, sans-serif;
   justify-content: center;
-  font-size:40px;
+  
 }
 
 
@@ -15,7 +15,6 @@ body {
   }
    
   .img1{
-    font-weight: normal;
     margin: 0;
     font-size:10px;
     height:100px;
@@ -24,7 +23,6 @@ body {
   }
 
  .img2 {
-    font-weight: normal;
     margin: 0;
     font-size:10px;
     height:100px;
@@ -50,7 +48,7 @@ body {
   text-align:center;
   margin: 3.5%;
   color: #fff;
-  font-size: 55px;
+  font-size: 40px;
   line-height: 1.2;
 
   .All About Me-family {
