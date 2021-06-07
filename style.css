@@ -127,8 +127,8 @@ body {
 /* Contact Info */
 
   
-  a:hover {
-  background-color: yellow;
+  .a:hover {
+  background-color:#yellow;
 }
   
   .intro p {
@@ -159,7 +159,7 @@ body {
 
 }
 
-.contact-info > * {
+.contact-info >  {
   flex:1;
   margin: 15px;
 
@@ -177,7 +177,7 @@ body {
 
 .contact info h3 {
   color: #fce138;
-  font-size: 32px;
+  font-size: 40px;
   
 }
 
@@ -185,7 +185,7 @@ body {
 .contact-info p .contact address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 40px;
   font-style: normal;
 
 }
