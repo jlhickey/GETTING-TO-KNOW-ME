@@ -4,7 +4,7 @@ body {
   font-family:#comic-sans;
   font-size:20px;
   justify-content: center;
-  
+  padding 20px 35px;
 }
 
 
@@ -17,15 +17,15 @@ body {
    
   .img1{
     margin: 0;
-    height:75px;
-    weight:75px;
+    height:50%;
+    weight:50%;
     justification: right;
   }
 
  .img2 {
     margin: 0;
-    height:75px;
-    weight:75px;
+    height:50%;
+    weight:50%;
     justification:center;
   }
 
