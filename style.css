@@ -1,7 +1,6 @@
 /* style */
 body {
   font-family:#TimesNewRoman;
-  width: 300px;
   border: 15px solid;
   padding: 50px;
   margin: 20px;
@@ -125,9 +124,14 @@ body {
 
 
 
-/* What I am Doing Now */
+/* Contact Info */
 
-.intro p {
+  
+  a:hover {
+  background-color: yellow;
+}
+  
+  .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
