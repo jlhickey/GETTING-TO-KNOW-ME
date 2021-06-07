@@ -25,15 +25,16 @@ body {
 
  .img2 {
     margin: 2%;
-    height:20%;
-    weight:20%;
+    height:10%;
+    weight:10%;
     justification:center;
-    p.solid {border-style: solid;}  }
+    p.solid {border-style: solid;}  
+}
 
 /*All About Me style start*/
 
  .All About Me {
-   
+   background-color:#grey;
    background-size: center;
    background-position: center;
    display: flex;
