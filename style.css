@@ -6,7 +6,9 @@ body {
   padding: 50px;
   margin: 20px;
   background-color:#A0CEE9;
-
+  p.solid {border-style: solid;}
+  
+  
   .header name {
     text-decoration: none;
     flex-start:top;
@@ -18,7 +20,7 @@ body {
   .img1{
     jutify-content:50%;  
     flex:end;
-    p.solid {border-style: solid;}
+   
 }
 
  .img2 {
