@@ -1,8 +1,8 @@
 /* style */
 body {
   background-color: #lightyellow;
-  font-family: sans-serif;
-  font-size:15px;
+  font-family:#comic-sans;
+  font-size:20px;
   justify-content: center;
   
 }
@@ -12,7 +12,8 @@ body {
     text-decoration: none;
     justification:center;
     font-size:20px;
-  }
+    font-family:#comic-sans;
+}
    
   .img1{
     margin: 0;
