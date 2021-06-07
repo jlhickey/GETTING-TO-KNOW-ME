@@ -19,7 +19,19 @@ body {
     color: #024e76;
   }
    
-  
+  .img {
+    font-weight: bold;
+    margin: 0;
+    font-size:36 px;
+    color: #fff;
+  }
+
+.img2 {
+    font-weight: bold;
+    margin: 0;
+    font-size:36 px;
+    color: #fff;
+  }
 
 /* footer style start  */
   
