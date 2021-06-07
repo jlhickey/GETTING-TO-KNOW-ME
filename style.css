@@ -5,12 +5,12 @@ body {
   border: 15px solid;
   padding: 50px;
   margin: 20px;
-
+  background-color:#A0CEE9;
 
   .header name {
     text-decoration: none;
     flex-start:top;
-    backgroundcolor:#lightteal;
+    color:#black;
     font-size:20px;
     font-family:#TimesNewRoman;
 }
