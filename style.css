@@ -5,7 +5,6 @@ header {
   padding: 15px;
   background-color:#yellow;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 
 }
@@ -15,7 +14,7 @@ header {
     font-weight: bold;
     margin: 20px;
     font-size:35px;
-    color: #yelow;
+    color: #yellow;
   }
 
  
@@ -104,7 +103,7 @@ All About Me-form {
   font-size: 20px;
   border-bottom: 3px solid;
   padding-bottom: 20px;
-  margin: 0 auto 35px auto;
+  margin: auto;
   width: 20%;
 
 }
