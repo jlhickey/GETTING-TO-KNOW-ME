@@ -20,7 +20,7 @@ body {
     margin: 2%;
     height:30%;
     weight:30%;
-    justification: right;
+    justify: right;
     p.solid {border-style: solid;}
 }
 
