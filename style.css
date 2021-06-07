@@ -2,17 +2,11 @@
 body {
   color: #91b3db;
   font-family: helvetica, Arial, sans-serif;
+  justify-content: center;
 }
 
- 
-  .header P {
-    font-weight: bold;
-    margin: 0;
-    font-size:36 px;
-    color: #fff;
-  }
 
-  .header P1 {
+  .header P {
     text-decoration: none;
     color: #024e76;
   }
@@ -27,15 +21,81 @@ body {
 .img2 {
     font-weight: bold;
     margin: 0;
-    font-size:36 px;
+    font-size:36px;
     color: #fff;
   }
 
-/* footer style start  */
+
+/*All About Me style start*/
+
+ .All About Me {
+   
+   background-size: center;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: flex-start;
+
+ } 
+
+.All About Me{
+  width:35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 55px;
+  line-height: 1.2;
+
+  .All About Me-family {
+  font-size: 24px;
+  margin: 0;}
+  
+  All About Me-form {
+  border: 3px solid #765102;
+  background: color #fff;
+  padding: 20px;
+  color: #0fff;
+  width: 40%;
+  margin: 3.5;
+}
+  
+  section {
+    padding: 60px;
+
+  }
+
+.form-input {
+  border: 1px solid #766102;
+  display: block;
+  padding: 7px 15 px;
+  font-size: 16 px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.hero-form label {
+  margin: 0 5px;
+
+}
+
+.All ABout Me-form button {
+  color:#fce138;
+  background-color: #fff;
+  padding-bottom: 20px;
+  margin: 0 auto 35px auto;
+  width: 50%;
+
+}
+
+/* All About Me style end */
+    /* footer style start  */
   
  footer{
    background: #024e76;
-   padding: 40 px35 px;
+   padding: 40px 35px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -58,87 +118,6 @@ body {
 
 /*style all tags*/
 
-  section {
-    padding: 60px;
-
-  }
-
-  /*All About Me style start*/
-
- .All About Me {
-   
-   background-size: center;
-   background-position: center;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   align-items: flex-start;
-
- } 
-
-.All About Me{
-  width:35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 55px;
-  line-height: 1.2;
-
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fff;
-
-}
-
-All About Me-form {
-  border: 3px solid #765102;
-  background: color #fff;
-  padding: 20px;
-  color: #0fff;
-  width: 40%;
-  margin: 3.5;
-}
-
-.All About Me-form h3 {
-  font-size: 24 ppx;
-  margin: 0;
-
-}
-
-hero-form p {
-  margin: 5 px 0 15 px 0;
-
-}
-
-.form-input {
-  border: 1px solid #766102;
-  display: block;
-  padding: 7px 15 px;
-  font-size: 16 px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-
-}
-
-.hero-form label {
-  margin: 0 5px;
-
-}
-
-.All ABout Me-form button {
-  color:#fce138;
-  background-color: #fff;
-  padding-bottom: 20px;
-  margin: 0 auto 35 px auto;
-  width: 50%;
-
-}
-
-/* All About Me style end */
   
 
 
@@ -186,7 +165,7 @@ hero-form p {
 }
 
 .contact-info div {
-  color: white;
+  color: #white;
   
 }
 
@@ -213,7 +192,7 @@ hero-form p {
   color: #024e76;
   width:100%;
   margin-bottom: 15px;
-  margin-top: 5 px;
+  margin-top: 5px;
 
 }
 
