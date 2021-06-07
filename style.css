@@ -6,15 +6,7 @@ body {
   margin: 20px;
   background-color:#A0CEE9;
   
-  .blink_me {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-  
+ 
 }  
   .header name {
     text-decoration: none;
