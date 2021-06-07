@@ -11,7 +11,7 @@ body {
   .header name {
     text-decoration: none;
     flex-start:top;
-    jutification:right;
+    
     font-size:20px;
     font-family:#TimesNewRoman;
 }
@@ -20,7 +20,8 @@ body {
     margin: 2%;
     height:30%;
     weight:30%;
-    justify: right;
+    jutify-content:50%;  
+    flex:end;
     p.solid {border-style: solid;}
 }
 
@@ -28,7 +29,8 @@ body {
     margin: 2%;
     height:10%;
     weight:10%;
-   flex-shrink:60%;
+    justify-content:space-around;
+    flex-shrink:60%;
     p.solid {border-style: solid;}  
 }
 
