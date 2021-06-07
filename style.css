@@ -17,19 +17,12 @@ body {
 }
    
   .img1{
-    margin: 2%;
-    height:30%;
-    weight:30%;
     jutify-content:50%;  
     flex:end;
     p.solid {border-style: solid;}
 }
 
  .img2 {
-    margin: 2%;
-    height:10%;
-    weight:10%;
-    justify-content:space-around;
     flex-shrink:60%;
     p.solid {border-style: solid;}  
 }
