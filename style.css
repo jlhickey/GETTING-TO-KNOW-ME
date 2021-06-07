@@ -19,14 +19,13 @@ body {
   .img1{
     jutify-content:50%;  
     align-item:right;
-    img {
-  border-radius: 50%;
-}   
+    border-radius: 50%;
+  
 }
 
  .img2 {
     flex-shrink:60%;
-    
+    border-radius: 50%;    
 }
 
 /*All About Me style start*/
