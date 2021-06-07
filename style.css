@@ -1,17 +1,16 @@
 /* style */
 body {
   font-family:#TimesNewRoman;
-  font-size:20px;
-  justify-content: center;
-  padding:2%;
-  background-color:#grey;
-}
+  width: 300px;
+  border: 15px solid;
+  padding: 50px;
+  margin: 20px;
 
 
   .header name {
     text-decoration: none;
     flex-start:top;
-    
+    backgroundcolor:#lightteal;
     font-size:20px;
     font-family:#TimesNewRoman;
 }
