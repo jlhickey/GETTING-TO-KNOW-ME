@@ -3,6 +3,7 @@ body {
   color: #91b3db;
   font-family: helvetica, Arial, sans-serif;
   justify-content: center;
+  font-size:40px;
 }
 
 
@@ -13,7 +14,7 @@ body {
     font-size:20px;
   }
    
-  .img1 {
+  .img {
     font-weight: normal;
     margin: 0;
     font-size:10px;
@@ -22,15 +23,14 @@ body {
     justification: right;
   }
 
-.img2 {
+ .img {
     font-weight: normal;
     margin: 0;
     font-size:10px;
     height:100px;
-    weight:100px;    
-    justification: center;
+    weight:100px;
+    justification:center;
   }
-
 
 /*All About Me style start*/
 
