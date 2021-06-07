@@ -3,7 +3,7 @@ body {
   font-family:#TimesNewRoman;
   font-size:20px;
   justify-content: center;
-  margin:20%;
+  margin:2%;
   p.solid {border-style: solid;}
 }
 
@@ -16,18 +16,19 @@ body {
 }
    
   .img1{
-    margin: 10%;
+    margin: 2%;
     height:30%;
     weight:30%;
     justification: right;
-  }
+    p.solid {border-style: solid;}
+}
 
  .img2 {
-    margin: 10%;
+    margin: 2%;
     height:20%;
     weight:20%;
     justification:center;
-  }
+    p.solid {border-style: solid;}  }
 
 /*All About Me style start*/
 
