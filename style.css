@@ -28,6 +28,7 @@ body {
     margin: 2%;
     height:10%;
     weight:10%;
+   flex-shrink:30%;
     p.solid {border-style: solid;}  
 }
 
