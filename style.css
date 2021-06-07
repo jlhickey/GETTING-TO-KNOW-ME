@@ -1,7 +1,8 @@
 /* style */
 body {
   color: #91b3db;
-  font-family: helvetica, Arial, sans-serif;
+  font-family: sans-serif;
+  font-size:20px;
   justify-content: center;
   
 }
@@ -16,17 +17,15 @@ body {
    
   .img1{
     margin: 0;
-    font-size:10px;
-    height:100px;
-    weight:100px;
+    height:75px;
+    weight:75px;
     justification: right;
   }
 
  .img2 {
     margin: 0;
-    font-size:10px;
-    height:100px;
-    weight:100px;
+    height:75px;
+    weight:75px;
     justification:center;
   }
 
@@ -44,7 +43,7 @@ body {
  } 
 
 .All About Me{
-  width:35%;
+  width:20%;
   text-align:center;
   margin: 3.5%;
   color: #fff;
@@ -52,7 +51,7 @@ body {
   line-height: 1.2;
 
   .All About Me-family {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;}
   
   All About Me-form {
@@ -65,7 +64,7 @@ body {
 }
   
   section {
-    padding: 60px;
+    padding: 20px;
 
   }
 
@@ -89,7 +88,7 @@ body {
   color:#fce138;
   background-color: #fff;
   padding-bottom: 20px;
-  margin: 0 auto 35px auto;
+  margin: 0 auto 20px auto;
   width: 50%;
 
 }
@@ -99,7 +98,7 @@ body {
   
  footer{
    background: #024e76;
-   padding: 40px 35px;
+   padding: 20px 20px;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
