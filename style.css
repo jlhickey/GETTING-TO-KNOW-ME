@@ -19,7 +19,7 @@ body {
    
   .img1{
     jutify-content:50%;  
-    flex:end;
+    align-item:right;
    
 }
 
