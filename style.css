@@ -19,7 +19,9 @@ body {
   .img1{
     jutify-content:50%;  
     align-item:right;
-   
+    img {
+  border-radius: 50%;
+}   
 }
 
  .img2 {
