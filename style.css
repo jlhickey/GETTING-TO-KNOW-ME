@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
-    color: rgb(75, 10, 228);
+    outline-color: rgb(75, 10, 228);
 }
 header nav {
     margin: 7px 0;
