@@ -9,21 +9,21 @@
 
    
    
-  .img1{
+.img1{
     justify-items:top;  
     align-items:left;
     border-radius: 50%;
   
 }
 
- .img2 {
+.img2 {
     flex-shrink:60%;
     border-radius: 50%;    
 }
 
 /*All About Me style start*/
 
- .All About Me {
+ .AllAboutMe {
    background-color:#fff;
    background-size: center;
    background-position: center;
@@ -34,7 +34,7 @@
 
  } 
 
-.My Family{
+.MyFamily{
   width:20%;
   text-align:center;
   margin: 3.5%;
@@ -43,7 +43,7 @@
   line-height: 1.2;
 } 
 
-.My Projects {
+.MyProjects {
   border: 1px solid #025176;
   display: flex;
   padding: 7px 15px;
@@ -53,7 +53,7 @@
   margin-bottom: 15px;
 }
 
-.My Resume {
+.MyResume {
   border: 1px solid #025176;
   display: flex;
   padding: 7px 15px;
