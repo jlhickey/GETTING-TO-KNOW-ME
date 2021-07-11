@@ -1,16 +1,18 @@
+
 * {
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*header styles*/
 header {
-    padding: 20px 30px;
-    background-color:rgba(244, 240, 247, 0.966);   
+    padding: 20px 35px;
+    background-color:rgb(236, 195, 13);   
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
-    outline-color: rgb(75, 10, 228);
+    color: rgb(249, 250, 169);
 }
 header nav {
     margin: 7px 0;
@@ -25,18 +27,19 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 20px;
-    color: rgb(245, 7, 7);
+    color: rgb(28, 9, 228);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 header nav ul li a:hover {
-    background-color: rgb(144, 238, 144);
-    color: rgb(0, 195, 255);
+    background-color: green;
+    color: yellow;
     border-radius: 10px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(30, 34, 245);
+    color: black;
+    background-color:rgb(6, 127, 131);
     background-size: cover;
 }
 /*image styles*/
@@ -47,7 +50,7 @@ body {
     display: flex;
 }
 #bio-image:hover {
-  box-shadow: 2px 2px 2px 1px rgba(22, 8, 216, 0.5)
+  box-shadow: 2px 2px 2px 1px rgba(66, 6, 233, 0.5)
 }
 
 /*main body styles*/
@@ -55,7 +58,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 10px;  
-    border: 5px, solid rgb(10, 103, 241);  
+    border: 5px, solid black;  
 }
 
 #About-Me {
@@ -63,8 +66,8 @@ body {
 }
 #About-Me h2 {
     padding-right: 20px;
+    border-right: 5px solid rgb(169, 214, 6);
 }
-
 #About-Me p {
     padding-left: 20px;
 }
@@ -72,35 +75,25 @@ body {
 #My-Projects {
     display: flex;
 }
-
 #My-Projects h2 {
-  
-  width: 150px;
-    padding-right: 75px;  
+    width: 150px;
+    padding-right: 75px;
+    border-right: 5px solid rgb(164, 207, 5);
 }
-
-#My-Projects .flex-container {
+#My-Projects.flex-container {
     padding-left: 20px;
 }
 
-#Coontact-Information .flex-container {
-    padding-left: 20px;
-
-}
-#Contact-form{
+#Contact-Information {
     display: flex;
 }
-
-#Contact-form h2 {
+#Contact-Information h2 {
     padding-right: 20px;
-    border-right: 5px solid blue; 
+    border-right: 5px solid rgb(187, 255, 0); 
 }
 
-#Contact-form address {
-    padding-left: 20px;
-}
 
- 
+
 /*main side styles*/
 .main {
     width: 100%;
@@ -123,10 +116,10 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    background-size: cover;    
 }
-
 .flex-item:hover {
-    border: 4px solid green;
+    border: 4px solid rgb(130, 9, 211);
     
 }
 .imgclass {
@@ -144,7 +137,12 @@ body {
     z-index: 9999;
 }
 
- 
+/* .work-img {
+    height: 250px;
+} */
+
+
+
 
 /* Media queries for the following screen sizes */
 
