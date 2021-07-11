@@ -1,191 +1,241 @@
-/* style */
-.header{
-  padding: 25px 35px;
-  background-color: #39a6b2
-    
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
 }
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
+/*header styles*/
+header {
+    padding: 20px 35px;
+    background-color:#fff;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    color: whitesmoke;
 }
-header a {
-    color: #fce138;
-}
-header a{
-    text-decoration: none;
-    color: #fce138;
-}
-header nav{
-    float: right;
+header nav {
     margin: 7px 0;
 }
-header nav ul li{
-    display:inline;
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
-header nav ul li a{
-    margin: 0 25px;
+header nav ul li a {
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+header nav ul li a:hover {
+    background-color: rgb(144, 238, 144);
+    color: rgb(0, 195, 255);
+    border-radius: 10px;
 }
 
-.body {
-  font-family:'Times New Roman', Times, serif;
-  border: 15px solid;
-  padding: 50px;
-  margin: 20px;
-  background-color:#A0CEE9;
-} 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 176, 176);
+    background-size: cover;
+}
+/*image styles*/
+#bio-image {
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    display: flex;
+}
+#bio-image:hover {
+  box-shadow: 2px 2px 2px 1px rgba(24, 133, 5, 0.5)
+}
 
-   
-   
-.img1{
-    justify-items:top;  
-    align-items:left;
-    border-radius: 50%;
+/*main body styles*/
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;  
+    border: 5px, solid rgb(240, 160, 160);  
+}
+
+#About-Me {
+    display: flex;
+}
+#About-Me h2 {
+    padding-right: 20px;
+    border-right: 5px solid blue;
+}
+#About-Me p {
+    padding-left: 20px;
+}
+#My-Projects {
+    display: flex;
+}
+
+
+#My-Projects h2 {
   
+  width: 150px;
+    padding-right: 75px;
+    border-right: 5px solid rgb(255, 166, 0);
+}
+#My-Projects .flex-container {
+    padding-left: 20px;
 }
 
-.img2 {
-    flex-shrink:60%;
-    border-radius: 50%;    
+#Contact-form{
+    display: flex;
+}
+#Contact-form h2 {
+    padding-right: 20px;
+    border-right: 5px solid blue; 
+}
+#Contact-form address {
+    padding-left: 20px;
 }
 
-/*All About Me style start*/
-
- .AllAboutMe {
-   background-color:#fff;
-   background-size: center;
-   background-position: center;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   align-items: flex-start;
-
- } 
-
-.MyFamily{
-  width:20%;
-  text-align:center;
-  margin: 3.5%;
-  color: #fff;
-  font-size:15px;
-  line-height: 1.2;
-} 
-
-.MyProjects {
-  border: 1px solid #025176;
-  display: flex;
-  padding: 7px 15px;
-  font-size: 16px;
-  color:#fff ;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.MyResume {
-  border: 1px solid #025176;
-  display: flex;
-  padding: 7px 15px;
-  font-size: 16px;
-  color:#fff ;
-  width: 100%;
-  margin-bottom: 15px;
-}
  
-/* All About Me style end */
-   
+/*main side styles*/
+.main {
+    width: 100%;
+    padding: 25px;
+    flex-direction: row;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 20px;
+  }
+
+.flex-item {
+    width: 45%;
+    border: 3px solid rgba(14, 123, 212, 0.5);
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-image: "./assets/images/Run-buddy.jpg";
+    background-size: cover;    
+}
+.flex-item:hover {
+    border: 4px solid green;
+    
+}
+.imgclass {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-item span {
+    margin: 0;
+    margin-bottom: 25px;
+    width: 33%;
+    background-color: rgba(14, 123, 212, 0.5);
+    padding: 5px 10px;
+    text-align: center;
+    z-index: 9999;
+}
+
+ 
+
+/* Media queries for the following screen sizes */
+
+/* Width at 1024px and below */
+@media screen and (max-width: 1024px) { 
+
+    
+    .flex-container {
+      /* Box-model */
+      width: 100%;
+      padding: 0;
+      flex-direction: column;
+
+    }
+
+    .flex-item {
+        width: 100%;
+        height: 50%;
+    }
+
+  }
   
-
-/* Contact Info */
+  /* Width at 768px and below */
+  @media screen and (max-width: 768px) {
 
   
-:hover {
-  background-color:#fce138;
-}
-
-.contact {
-  background: #024e76;
-
-}
-
-.contact h2 {
-  color: #fce138
-
-}
-
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-}
-
-.contact-info >  {
-  flex:1;
-  margin: 15px;
-
-}
-
-.contact-info iframe {
-  height: 400px;
-
-}
-
-.contact-info div {
-  color: #fff;
+    header {
+        flex-direction: column;        
+    }
+    header nav ul {
+        justify-content: flex-start
+    }
+    
+    .flex-container {
+        /* Box-model */
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
   
-}
-
-.contact info h3 {
-  color: #fce138;
-  font-size: 40px;
+      }
   
-}
+      .flex-item {
+          width: 100%;
+      }
+    }
+  
+  /* Width at 600px and below */
+  @media screen and (max-width: 600px) {
 
+  
+    .flex-container {
+        /* Box-model */
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+  
+      }
+  
+      .flex-item {
+          width: 100%;
+      }
+    }
+  
+  
+  /* Width at 480px and below */
+  @media screen and (max-width: 480px) {
 
-.contact-info p .contact address {
-  margin: 20px 0;
-  line-height: 1.5;
-  font-size: 40px;
-  font-style: normal;
+    header {
+        flex-direction: column;
+    }
+    
+    .flex-container {
+        /* Box-model */
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+  
+      }
+  
+      .flex-item {
+          width: 100%;
+      }
+    }
+  
+  /* Width at 300px and below */
+  @media screen and (max-width: 300px) {
 
-}
-
-.contact-form input  .contact-form textarea {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width:100%;
-  margin-bottom: 15px;
-  margin-top: 5px;
-
-}
-
-.contact-form button {
-  width: 100%;
-  border:none;
-  background: #fce138;
-  color: #024e76;
-  text-align: center;
-  font-size: 16px;
-
-}
-
-.contact-info a {
-  color: #fce138;
-
-}
-
-/* reach out style end */
-
-
-
-
-
-
-/* end */
+    .flex-container {
+        /* Box-model */
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+  
+      }
+  
+      .flex-item {
+          width: 100%;
+      }
+    } 
