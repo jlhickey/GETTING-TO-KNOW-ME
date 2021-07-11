@@ -1,23 +1,17 @@
 /* style */
-body {
-  font-family:#TimesNewRoman;
+.body {
+  font-family:'Times New Roman', Times, serif;
   border: 15px solid;
   padding: 50px;
   margin: 20px;
   background-color:#A0CEE9;
-  
+} 
 
-  .header name {
-    text-decoration: none;
-    flex-start:top;
-    color:#black;
-    font-size:20px;
-    font-family:#TimesNewRoman;
-}
+   
    
   .img1{
-    jutify-content:50%;  
-    align-item:center;
+    justify-items:top;  
+    align-items:left;
     border-radius: 50%;
   
 }
@@ -30,7 +24,7 @@ body {
 /*All About Me style start*/
 
  .All About Me {
-   background-color:#grey;
+   background-color:#fff;
    background-size: center;
    background-position: center;
    display: flex;
@@ -40,107 +34,45 @@ body {
 
  } 
 
-.All About Me{
+.Family{
   width:20%;
   text-align:center;
   margin: 3.5%;
   color: #fff;
   font-size:15px;
   line-height: 1.2;
+} 
 
-  .All About Me-family {
-  font-size: 15px;
-  margin: 0;}
-  
-  All About Me-form {
-  border: 3px solid #765102;
-  background: color #fff;
-  padding: 20px;
-  color: #0fff;
-  width: 40%;
-  margin: 3.5;
-}
-  
-  section {
-    padding: 20px;
-
-  }
-
-.form-input {
-  border: 1px solid #766102;
-  display: block;
+.Projects {
+  border: 1px solid #025176;
+  display: flex;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color:#fff ;
   width: 100%;
   margin-bottom: 15px;
-
 }
 
-.hero-form label {
-  margin: 0 5px;
-
+.Resume {
+  border: 1px solid #025176;
+  display: flex;
+  padding: 7px 15px;
+  font-size: 16px;
+  color:#fff ;
+  width: 100%;
+  margin-bottom: 15px;
 }
-
-.All ABout Me-form button {
-  color:#fce138;
-  background-color: #fff;
-  padding-bottom: 20px;
-  margin: 0 auto 20px auto;
-  width: 50%;
-
-}
-
+ 
 /* All About Me style end */
-    /* footer style start  */
+   
   
- footer{
-   background: #024e76;
-   padding: 20px 20px;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   width: 100%
- }
-  footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-
-  }
-
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-    
-  }
-
-/*end of footer style*/
-
-/*style all tags*/
-
-  
-
-
-
 
 /* Contact Info */
 
   
-  .a:hover {
-  background-color:#yellow;
+:hover {
+  background-color:#fce138;
 }
-  
-  .intro p {
-  line-height: 1.7;
-  color: #39a6b2;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-
-}
-
 
 .contact {
   background: #024e76;
@@ -171,7 +103,7 @@ body {
 }
 
 .contact-info div {
-  color: #white;
+  color: #fff;
   
 }
 
