@@ -75,12 +75,13 @@ body {
 
 #My-Projects {
     display: flex;
-    width: 100%;
+    align-items:center;
+   /* width: 100%;*/
     padding: 0;
     
 }
 #My-Projects h2 {
-    width: 90px;
+    /*width: 90px;*/
     padding-right: 75px;
     border-right: 5px solid #blue;
 }
