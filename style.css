@@ -13,8 +13,8 @@ header {
     font-size: 25px;
     font-weight: 30px;
     font-style: italic;
-    color: #024e76;
-    display: inline;
+    color: #yellow;
+    
 }
 header nav {
     margin: 20px 0;
@@ -23,10 +23,10 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
+    
 }
 header nav ul li a {
-    padding: 1px 1px;
+    padding: 2px 2px;
     font-weight: lighter;
     font-size: 20px;
     color:#024e76;
@@ -35,7 +35,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #rgb(75, 7, 185);
     color: #yellow;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 body {
@@ -76,12 +76,12 @@ body {
 #My-Projects {
     display: flex;
     align-items:center;
-   /* width: 100%;*/
+    width: 100%;
     padding: 0;
     
 }
 #My-Projects h2 {
-    /*width: 90px;*/
+    width: 90px;
     padding-right: 75px;
     border-right: 5px solid #blue;
 }
@@ -143,18 +143,6 @@ body {
 /* .work-img {
     height: 250px;
 } */
-
-/*footer syles*/
-footer h2 {
-    font-size: 30px;
-    text-align: center;
-    position: bottom;
-    width: 100%;
-    bottom: 10px;
-    border: 3px solid #rgba(14, 123, 212, 0.5);
-    color: #white;
-
-}
 
 
 /* Media queries for the following screen sizes */
