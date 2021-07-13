@@ -7,10 +7,9 @@
 header {
     padding: 60px 35px;    
     justify-content: space-between;
-    align-self: center;
+    display: flex;    
     flex-wrap: wrap;
-    display: flex;
-    color: #white;
+    align-self: center;
     font-size: 15px;
     font-weight: 30;
     font-style: italic;
@@ -18,7 +17,7 @@ header {
     display: inline;
 }
 header nav {
-    margin: 7px 0;
+    margin: 70px 0;
 }
 header nav ul {
     display: flex;
