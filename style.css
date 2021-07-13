@@ -10,11 +10,11 @@ header {
     flex-wrap: wrap;
     display: flex;
     color: #white;
-    font-size: 20px;
-    font-weight: 50;
+    font-size: 15px;
+    font-weight: 30;
     font-style: italic;
     color: #fce138;
-    display: inline-block;
+    display: inline;
 }
 header nav {
     margin: 7px 0;
@@ -41,16 +41,15 @@ header nav ul li a:hover {
 body {
     font-family: #Arial, Helvetica, sans-serif;
     color: #024e76;
-    background-size: cover;
 }
 /*image styles*/
-#image {
-    width: 200px;
-    height: 200px;
+#images {
+    width: 50px;
+    height: 50px;
     flex-wrap: wrap;
     display: right;
 }
-#image:hover {
+#images:hover {
   box-shadow: 2px 2px 2px 1px #rgba(24, 133, 5, 0.5)
 }
 
@@ -77,7 +76,7 @@ body {
     display: flex;
 }
 #My-Projects h2 {
-    width: 150px;
+    width: 90px;
     padding-right: 75px;
     border-right: 5px solid #blue;
 }
