@@ -29,7 +29,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 20px;
-    color: #whitesmoke;
+    color:#024e76;
     text-shadow: 0 0 10px #rgba(0, 0, 0, 0.5)
 }
 header nav ul li a:hover {
@@ -40,7 +40,7 @@ header nav ul li a:hover {
 
 body {
     font-family: #Arial, Helvetica, sans-serif;
-    color: #rgb(50, 10, 228);
+    color: #024e76;
     background-size: cover;
 }
 /*image styles*/
@@ -73,15 +73,15 @@ body {
     padding-left: 20px;
 }
 
-#My-Project {
+#My-Projects {
     display: flex;
 }
-#My-Project h2 {
+#My-Projects h2 {
     width: 150px;
     padding-right: 75px;
     border-right: 5px solid #blue;
 }
-#My-Project .flex-container {
+#My-Projects .flex-container {
     padding-left: 20px;
 }
 
@@ -92,10 +92,6 @@ body {
     padding-right: 20px;
     border-right: 5px solid #blue; 
 }
-#Contact-Information address {
-    padding-left: 20px;
-}
-
 
 /*main side styles*/
 .main {
