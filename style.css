@@ -13,7 +13,7 @@ header {
     font-size: 25px;
     font-weight: 30px;
     font-style: italic;
-    color: #yellow;
+    backgroound-color: #yellow;
     
 }
 header nav {
@@ -21,6 +21,7 @@ header nav {
 }
 header nav ul {
     display: flex;
+    flex-wrap: wrap;    
     justify-content: space-between;
     align-items: center;
     
