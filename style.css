@@ -11,9 +11,9 @@ header {
     flex-wrap: wrap;
     align-self: center;
     font-size: 25px;
-    font-weight: 30;
+    font-weight: 30px;
     font-style: italic;
-    color: #fce138;
+    color: #024e76;
     display: inline;
 }
 header nav {
