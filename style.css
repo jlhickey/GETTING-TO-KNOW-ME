@@ -1,5 +1,4 @@
 * {
-    margin: 20%;
     box-sizing: border-box;
     item-align:center ;
     padding 1px;
@@ -14,7 +13,7 @@ header {
     }
 
 header nav {
-    margin: 7px 0;
+    margin: 0x 0;
 }
 
 header nav ul {
@@ -84,14 +83,14 @@ body {
     width: 100%;
      padding:30px; 
      flex-direction: row; 
-    border: 5px, solid #black;  
+     border: 5px, solid #black;  
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 00px;
   }
 
 .flex-item {
