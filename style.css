@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
     item-align:center ;
-    padding: 20px;
+    padding: 30px;
 }
 /*header styles*/
 header {
-    padding: 15px 15px;    
+    padding: 20x 20x;    
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +14,8 @@ header {
     }
 
 header nav {
-    margin: 10x 0;
+    margin: 0x 0;
+    padding: 20px;
 }
 
 header nav ul {
