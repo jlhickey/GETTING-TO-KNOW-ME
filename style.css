@@ -5,11 +5,12 @@
 }
 /*header styles*/
 header {
-    padding: 5px 50px;    
+    padding: 5px 5px;    
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
+    color: #blue;
     }
 
 header nav {
