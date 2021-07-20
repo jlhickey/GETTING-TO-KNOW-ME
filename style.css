@@ -14,7 +14,7 @@ header {
     }
 
 header nav {
-    margin: 0x 0;
+    margin: 10x 0;
 }
 
 header nav ul {
@@ -23,7 +23,7 @@ header nav ul {
     align-items: center;
 }
 header nav ul li a {
-    padding: 0px 0px;
+    padding: 5px 5px;
     font-weight: lighter;
     font-size: 30px;
     color: #light-blue;
@@ -32,7 +32,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #rgb(75, 7, 185);
     color: #yellow;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 body {
