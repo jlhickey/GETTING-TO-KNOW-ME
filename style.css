@@ -99,7 +99,7 @@ body {
     border: 3px solid #rgba(14, 123, 212, 0.5);
     height: 5%; 
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
 
 }
 .flex-item:hover {
