@@ -26,13 +26,13 @@ header nav ul {
 header nav ul li a {
     padding: 15px 15px;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 20px;
     color: #light-blue;
     text-shadow: 0 0 10px #rgba(0, 0, 0, 0.5)
 }
 header nav ul li a:hover {
     background-color: #rgb(75, 7, 185);
-    color: #yellow;
+    color: #grey;
     border-radius: 30px;
 }
 
