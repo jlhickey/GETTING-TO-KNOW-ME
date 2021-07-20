@@ -16,7 +16,6 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content:space-between;
     align-items: center;
 }
 header nav ul li a {
@@ -33,14 +32,14 @@ header nav ul li a:hover {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: #Arial, Helvetica, sans-serif;
     color: #rgb(50, 10, 228);
-    padding: 20px;
+    padding: 0px;
 }
 /*image styles*/
 #image {
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     display:right;
 }
 #image:hover {
