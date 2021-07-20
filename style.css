@@ -5,7 +5,7 @@
 }
 /*header styles*/
 header {
-    padding: 5px 5px;    
+    padding: 0px 5px;    
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -31,13 +31,13 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #rgb(75, 7, 185);
     color: #yellow;
-    border-radius: 10px;
+    border-radius: 00px;
 }
 
 body {
     font-family: #Arial, #Helvetica, sans-serif;
     color: #rgb(50, 10, 228);
-    padding: 10px;
+    padding: 0px;
 }
 /*image styles*/
 #image {
