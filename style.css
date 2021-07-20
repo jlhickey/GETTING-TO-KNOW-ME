@@ -1,4 +1,5 @@
 * {
+    margin: 20%;
     box-sizing: border-box;
     item-align:center ;
     padding 1px;
@@ -13,18 +14,19 @@ header {
     }
 
 header nav {
-    margin: 0 0;
+    margin: 7px 0;
 }
 
 header nav ul {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 header nav ul li a {
     padding: 0px 0px;
     font-weight: lighter;
     font-size: 20px;
-    color: #whitesmoke;
+    color: #light-blue;
     text-shadow: 0 0 10px #rgba(0, 0, 0, 0.5)
 }
 header nav ul li a:hover {
@@ -34,7 +36,7 @@ header nav ul li a:hover {
 }
 
 body {
-    font-family: #Arial, Helvetica, sans-serif;
+    font-family: #Arial, #Helvetica, sans-serif;
     color: #rgb(50, 10, 228);
     padding: 10px;
 }
@@ -94,14 +96,14 @@ body {
 
 .flex-item {
     width: 45%;
-    border: 3px solid rgba(14, 123, 212, 0.5);
+    border: 3px solid #rgba(14, 123, 212, 0.5);
     height: 5%; 
     display: flex;
     flex-direction: column;
 
 }
 .flex-item:hover {
-    border: 4px solid rgb(243, 208, 8);
+    border: 4px solid #rgb(243, 208, 8);
     
 }
 .imgclass {
@@ -112,7 +114,7 @@ body {
 .flex-item span {
     margin: 0;
     width: 33%;
-    background-color: rgba(14, 123, 212, 0.5);
+    background-color: #rgba(14, 123, 212, 0.5);
     text-align: center;
     z-index: 9999;
 }
