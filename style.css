@@ -1,15 +1,15 @@
 * {
     box-sizing: border-box;
     item-align:center ;
-    padding 1px;
+    padding 0px;
 }
 /*header styles*/
 header {
-    padding: 0px 5px;    
+    padding: 0px 0px;    
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    margin: 2px;
+    margin: 0px;
     }
 
 header nav {
