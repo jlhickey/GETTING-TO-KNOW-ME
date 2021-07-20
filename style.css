@@ -67,6 +67,7 @@ body {
     display: flex;
     font-size: medium;
     box-sizing: border-box;
+    padding: 20px;
 }
  #My-Projects h2 {
     width: 30px;
@@ -116,7 +117,7 @@ body {
 }
 
 .flex-item span {
-    margin: 0;
+    margin: 10px;
     width: 33%;
     background-color: #rgba(14, 123, 212, 0.5);
     text-align: center;
