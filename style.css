@@ -5,11 +5,12 @@
 }
 /*header styles*/
 header {
+    padding: 10px 10px;    
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    padding: 1px;
-}
+    margin: 2px;
+    }
 
 header nav {
     margin: 0 0;
