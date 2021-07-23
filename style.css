@@ -67,10 +67,10 @@ body {
     display: flex;
     font-size: medium;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
 }
  #My-Projects h2 {
-    width: 100px;
+    width: 90px;
      flex-direction: column;
     
 }
