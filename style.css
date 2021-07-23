@@ -62,11 +62,6 @@ body {
     width: 75%;
 }
 
-#para{
-    display: flex;
-    felx-item: center;
-    box-sizing: border-box;
-
 #My-Projects {
     display: flex;
     justify-items: center;
