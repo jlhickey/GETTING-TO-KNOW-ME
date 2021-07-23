@@ -71,7 +71,7 @@ body {
 }
  #My-Projects h2 {
     width: 90px;
-     flex-direction: column;
+     flex-direction:row;
     
 }
  
