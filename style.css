@@ -65,6 +65,7 @@ body {
 
 #My-Projects {
     display: flex;
+    justify-items: center;
     font-size: medium;
     box-sizing: border-box;
 }
