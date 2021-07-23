@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     item-align: center;
+    justify-content: center;
 }
 /*header styles*/
 header {
