@@ -2,9 +2,10 @@
 All About Joanne Hickey
 
 ## Purpose
-This page will show appicable information about myself, and what I am learning.
-I have also added projects.
-
+ As I continue on the road to being a conding guru, I would like people to see
+ what I have done.  
+ This page will show appicable information about myself, and what I am learning.
+ 
 ## Built With
 * HTML
 * CSS
